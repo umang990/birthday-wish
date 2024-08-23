@@ -187,12 +187,12 @@ font-family: cursive;
 }
 
 .hoverr {
-    font-size: 27px; /* Default font size */
-    transition: font-size 0.3s ease; /* Smooth transition */
+    font-size: 27px; 
+    transition: font-size 0.3s ease; 
   }
 
   .hoverr:hover {
-    font-size: 26px; /* Increased font size on hover */
+    font-size: 26px; 
   }
   .emoji{
     font-size: 40px;
