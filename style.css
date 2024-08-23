@@ -170,22 +170,7 @@ font-family: cursive;
     text-align: center; 
     word-wrap: break-word; 
 }
-/* 
-@media screen and (max-width: 1024px) {
-    .btn {
-        font-size: 24px;
-        max-width: 250px;
-        padding: 10px;
-    }
-}
 
-@media screen and (max-width: 768px) {
-    .btn {
-        font-size: 20px;
-        max-width: 200px;
-        padding: 8px;
-    }
-} */
 
 .hoverr {
     font-size: 27px; 
