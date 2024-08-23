@@ -132,7 +132,8 @@ font-family: cursive;
     margin-right:360px ;
     margin-top: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
    
 }
 
