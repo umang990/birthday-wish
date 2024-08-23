@@ -1,0 +1,175 @@
+body{
+    background-image: url(pexels-veeterzy-114979.jpg);
+     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: cursive;
+    
+}
+.head{
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(14, 50px);
+    grid-gap: 0.7px;
+}
+.headCard{
+    text-shadow: 7px 7px 7px rgba(24, 75, 104, 0.3);
+    font-size: 50px; 
+    color: #ffffff; 
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    background-color: #4e4a5e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    cursor: pointer;
+   
+font-family: cursive;
+}
+.welcome{
+    text-shadow: 7px 7px 7px rgba(24, 75, 104, 0.3);
+    font-size: 30px; 
+    color: #000000;
+    margin-left: 280px;
+    margin-right: 280px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+    font-family: cursive;
+}
+.rules {
+    margin-left:170px;
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+ 
+  .rules .hovertext {
+    visibility: hidden;
+    width: 150px;
+    background-color: rgb(159, 86, 164);
+    color: #fff;
+    text-align: center;
+    border-radius: 7px;
+    padding: 5px;
+    position: absolute;
+    bottom: 100%;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+
+  
+  .rules:hover .hovertext {
+    visibility: visible;
+    opacity: 1;
+  }
+
+.subhead{   
+    margin-top: 50px;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 170px;
+    margin-right: 170px;
+    font-family: cursive;
+}
+.game{
+    font-family: cursive;
+    margin-top: 60px;
+    margin-left: 170px;
+    margin-right: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.happy{
+    display: grid;
+    grid-template-columns: repeat(5, 50px);
+    grid-gap: 2px;
+}
+.bday{
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-gap: 2px;
+}
+.card{
+    border-radius: 12px;
+    width: 50px;
+    height: 50px;
+    background-color:#2a2238;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: transparent;
+    cursor: pointer;
+}
+.flipped{
+    background-color: #a66ebd;
+    color: #000;
+}
+.abc {
+    text-shadow: 7px 7px 7px rgba(24, 75, 104, 0.3);
+    font-size: 2rem; 
+    color: #ffffff; 
+}
+
+.bcd {
+    font-weight: 1200;
+    text-shadow: 7px 7px 7px rgba(102, 59, 170, 0.3);
+    font-size: 2rem; 
+    color : #ffffff; 
+}
+.final{
+    margin-left: 420px;
+    margin-right:360px ;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.endh{
+    display: grid;
+    grid-template-columns: repeat(5, 50px);
+    grid-gap: 1px;
+}
+.endb{
+    display: grid;
+    grid-template-columns: repeat(8, 50px);
+    grid-gap: 1px;
+}
+.btn{font-family: cursive ;
+    text-shadow: 7px 7px 7px rgba(24, 75, 104, 0.3);
+
+    color: #f5f0f8;
+    font-size: 30px;
+    height: 1px;
+    background-color: #2e183b;
+    border: solid 1px rgb(82, 33, 86) ;
+    border-radius: 8px;
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-top: 25px;
+    padding-top: 3px;
+    padding-bottom: 40px;
+    padding-left: 80px;
+    cursor: pointer;
+}
+.hoverr {
+    font-size: 27px; /* Default font size */
+    transition: font-size 0.3s ease; /* Smooth transition */
+  }
+
+  .hoverr:hover {
+    font-size: 26px; /* Increased font size on hover */
+  }
+  .emoji{
+    font-size: 40px;
+  }
