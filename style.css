@@ -135,6 +135,7 @@ font-family: cursive;
     justify-content: space-between;
    
 }
+
 .endh{
     display: grid;
     grid-template-columns: repeat(5, 50px);
@@ -144,24 +145,47 @@ font-family: cursive;
     display: grid;
     grid-template-columns: repeat(8, 50px);
     grid-gap: 1px;
-}
-.btn{font-family: cursive ;
-    text-shadow: 7px 7px 7px rgba(24, 75, 104, 0.3);
+ }
 
+.btn {
+    font-family: cursive;
+    text-shadow: 7px 7px 7px rgba(24, 75, 104, 0.3);
     color: #f5f0f8;
     font-size: 30px;
-    height: 1px;
     background-color: #2e183b;
-    border: solid 1px rgb(82, 33, 86) ;
+    border: solid 1px rgb(82, 33, 86);
     border-radius: 8px;
-    margin-left: 600px;
-    margin-right: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 0 auto; 
     margin-top: 25px;
-    padding-top: 3px;
-    padding-bottom: 40px;
-    padding-left: 80px;
+    max-width: 300px;
+    
+    padding: 10px; 
+    
     cursor: pointer;
+    text-align: center; 
+    word-wrap: break-word; 
 }
+
+@media screen and (max-width: 1024px) {
+    .btn {
+        font-size: 24px;
+        max-width: 250px;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .btn {
+        font-size: 20px;
+        max-width: 200px;
+        padding: 8px;
+    }
+}
+
 .hoverr {
     font-size: 27px; /* Default font size */
     transition: font-size 0.3s ease; /* Smooth transition */
