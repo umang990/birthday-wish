@@ -184,5 +184,7 @@ font-family: cursive;
     font-size: 40px;
   }
   .cardhover{
-    background-color: #d8d2e4;
+    background-color: #225fb4;
+    transition: 0.5s;
+    font-size: 60px;
   }

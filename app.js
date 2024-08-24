@@ -5,6 +5,7 @@ hbd.forEach((val)=>{
     let card = document.createElement('div');
     card.innerText=val;
     card.classList.add("headCard");
+    card.addEventListener("mouseenter",cardhover)
     head.appendChild(card);
 })
 
