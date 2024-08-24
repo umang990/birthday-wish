@@ -33,6 +33,7 @@ function createCards(value){
     // console.dir(card);
     card.id=value;
     game.appendChild(card);
+    card.addEventListener("mouseenter",cardhover);
     card.addEventListener("click",handleCardClick)
 }
 
@@ -126,10 +127,17 @@ function createCards2(value){
     // console.dir(card);
     card.id=value;
     game2.appendChild(card);
-    card.addEventListener("click",handleCardClick2)
+    card.addEventListener("mouseenter",cardhover);
+    card.addEventListener("click",handleCardClick2);
 }
 
-
+function cardhover(evnt){
+    let card=evnt.target;
+    card.classList.add("cardhover");
+    card.addEventListener("mouseleave",()=>{
+        card.classList.remove("cardhover");
+    })
+}
 function handleCardClick2(evnt){
             let card=evnt.target;
            if(flippedCards2.length<2 && !card.classList.contains("flipped") ){
